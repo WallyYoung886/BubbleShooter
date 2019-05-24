@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>是泡泡龙哦</title>
+    <link rel="shortcut icon" href="logo.ico">
+    <script src="../general_Scripts/pixi.min.js"></script>
+    <script type="text/javascript" src="../general_Scripts/Charm.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130604048-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-130604048-1');
+    </script>
+  </head>
+  <body>
+    <h1 id="title">是泡泡龙哦</h1>
+    <div id="gameArea">
+
+    </div>
+
+    <div class="whatsNew">
+      <audio id='classicBgm' type="audio/mp3" loop="loop">
+        <source src="material\ukulele.mp3"/>
+      </audio>
+      <audio id='santaBgm' type="audio/mp3" loop="loop">
+        <source src="material\JB.mp3"/>
+      </audio>
+      <h2>What's new?</h2>
+      <ul>
+        <li>修改了计时模式的玩法</li>
+        <li>增加了计时模式的新手介绍</li>
+        <li>增加了游戏中的菜单钮用于暂停和返回菜单</li>
+        <li><a href = "https://www.wjx.cn/jq/32153253.aspx" style="color:yellow;">游戏过后别忘了点我填个反馈哦</a></li>
+      </ul>
+      <h2>简介</h2>
+      <p>就是普通的泡泡龙, 操纵发射器发射泡泡,打掉一个球100分,一个悬空的球200分。
+        点击下一个球可以交换颜色。 过线就挂了。
+        计时模式下玩家一共有60秒时间, 计分规则同经典模式,
+        当场上的球少于30个时场上会生成新的球。超过底线的球会被自动清除,
+        游戏只在时间耗尽后停止。玩家可以尽情射击,嘻嘻。
+        目前触屏操作要先拖动才能瞄准,放手发射,鼠标直接点击发射。
+        如果有问题和建议欢迎<a href="mailto:wallyyoung886@gmail.com" style="color:white;">联系我</a>。
+      </p>
+      <p>BGM: Ukulele, source: <a href="https://www.bensound.com/" style="color:white;">https://www.bensound.com/</a></p>
+      <p>圣诞皮肤 source: <a href="http://www.nipic.com/show/18849436.html" style="color:white;">http://www.nipic.com/show/18849436.html</a></p>
+      <p>圣诞BGM: 「Kevin MacLeod」創作的「Jingle Bells 7」是根據「Creative Commons Attribution」(https://creativecommons.org/licenses/...) 授權使用
+          演出者：http://incompetech.com/</p>
+      <p id="version">程序运行可能遇到了一些问题,请联系管理员</p>
+    </div>
+  </body>
+  <script type="text/javascript" src="game.js"></script>
+</html>
